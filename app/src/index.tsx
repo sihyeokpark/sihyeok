@@ -1,11 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 import './css/index.css'
-import Home from './pages/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-ReactDOM.render(
-    <React.StrictMode>
-        <Home />
-    </React.StrictMode>,
+import Home from './pages/Home'
+import Problems from './pages/Problems'
+
+render(
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="problems" element={<Problems />} />
+        </Routes>
+    </BrowserRouter>,
     document.getElementById('root')
 )
