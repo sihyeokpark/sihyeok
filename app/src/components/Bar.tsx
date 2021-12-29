@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import '../css/bar.css'
 
 function Bar() {
@@ -5,8 +7,8 @@ function Bar() {
         <div className="bar">
             <img src="https://d2gd6pc034wcta.cloudfront.net/images/logo@2x.png" width="250px"/>
             
-            <a>문제</a>
-            <a>랭킹</a>
+            <Link to="/" className="link">홈</Link>
+            <Link to="/problems" className="link">문제</Link>
             
         </div>
     )

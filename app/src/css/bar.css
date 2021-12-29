@@ -9,7 +9,9 @@
     vertical-align: middle;
 }
 
-a {
+.link {
     font-size: 15px;
     padding: 10px;
+    text-decoration: none;
+    color: inherit;
 }
