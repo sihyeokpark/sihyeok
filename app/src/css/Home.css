@@ -18,3 +18,55 @@
 .header p {
     font-size: 0.8rem;
 }
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.main {
+    max-width: 960px;
+    padding: 50px 8px;
+    margin: 2px auto;
+}
+
+.main h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-bottom: 22px;
+}
+
+.main p {
+    color: #ffffff;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.main a {
+    font-weight: bold;
+}
+
+.main button {
+    background-color: #9566ff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.main button:hover {
+    background-color: #a966ff;
+}

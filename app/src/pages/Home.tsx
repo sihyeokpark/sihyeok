@@ -9,7 +9,13 @@ export default function Home() {
             <Bar />
             <div className="header">
                 <h1>SIHYEOK</h1>
-                <p>Made by exon</p>
+                <p>Made by <a href="https://github.com/1-EXON">exon</a></p>
+            </div>
+            <div className="main">
+                <h1>모두가 문제를 내고</h1>
+                <h1>풀 수 있는 창의력 문제 사이트</h1>
+                <p><a href="">SIHYEOK</a> 은 창의력 문제를 풀고 만들 수 있게 만들어진 프로젝트입니다.</p>
+                <button>지금 시작하기</button>
             </div>
         </header>
     )
