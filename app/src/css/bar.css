@@ -1,8 +1,30 @@
 .bar {
-    height: 60px;
+    max-width: 960px;
+    padding: 10px 8px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #21252b;
     text-align: center;
-    line-height: 60px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    border-bottom: 1px solid rgba(0,27,55,.1);
+}
+
+.bar left {
+    display: flex;
+    align-content: center;
+}
+
+.bar right {
+    display: flex;
+    float: right;
 }
 
 .bar img {
@@ -14,4 +36,5 @@
     padding: 10px;
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
 }

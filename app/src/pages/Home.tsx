@@ -5,12 +5,12 @@ import Bar from '../components/Bar'
 
 export default function Home() {
     return (
-        <div>
+        <header>
             <Bar />
             <div className="header">
                 <h1>SIHYEOK</h1>
                 <p>Made by exon</p>
             </div>
-        </div>
+        </header>
     )
 }
