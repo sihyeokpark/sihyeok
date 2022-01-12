@@ -5,16 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #21252b;
     text-align: center;
-}
-
-header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    border-bottom: 1px solid rgba(0,27,55,.1);
 }
 
 .bar left {
