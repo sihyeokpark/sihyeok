@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <footer>
                 <div className="footer">
-                    <p>푸터푸터푸터</p>
+                    <p>powered by <a href='https://exon.kr'>exon.kr</a></p>
                 </div>
             </footer>
         </div>

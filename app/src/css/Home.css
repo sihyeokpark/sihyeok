@@ -117,6 +117,8 @@ footer {
 
 .footer {
     max-width: 960px;
-    padding: 50px 8px;
+    height: 10px;
+    padding: 30px 8px;
     margin: 2px auto;
+    font-size: 12px;
 }
