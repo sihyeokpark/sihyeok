@@ -1,3 +1,5 @@
+@import 'reset.css';
+
 body {
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif !important;
@@ -5,4 +7,51 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #26292e;
     color: #c9d6de;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 17%;
+    background-color: #454b54;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #21252b;
+}
+
+::-moz-selection {
+    background: #8a9095;
+    color: #26292e;
+}
+
+::selection {
+    background: #8a9095;
+    color: #26292e;
+}
+
+header {
+    position: fixed;
+    background-color: #21252b;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    border-bottom: 1px solid #656d7a;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    transition: 0.3s;
+}
+
+b {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
 }

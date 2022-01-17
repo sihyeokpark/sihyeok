@@ -1,4 +1,3 @@
-import '../css/App.css'
 import '../css/Home.css'
 
 import Bar from '../components/Bar'
@@ -9,7 +8,7 @@ export default function Home() {
             <header>
                 <Bar />
             </header>
-            <div className="header">
+            <div className="banner">
                 <h1>SIHYEOK</h1>
                 <p>Made by <a href="https://github.com/1-EXON">exon</a></p>
             </div>
