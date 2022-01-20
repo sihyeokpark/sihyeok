@@ -1,2 +1,0 @@
-# SiHyeok
-Creativity Problems Website
