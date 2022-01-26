@@ -8,7 +8,9 @@ function Bar() {
         <div>
             <div className="bar">
                 <div className="left">
-                    <img src={logo} alt="logo" width="50px"/>
+                    <a href="/">
+                        <img src={logo} alt="logo" width="50px"/>
+                    </a>
                 </div>
                 <div className="right">
                     <Link to="/" className="link">홈</Link>
