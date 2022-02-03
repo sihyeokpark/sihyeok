@@ -29,3 +29,21 @@
     color: inherit;
     font-weight: bold;
 }
+
+.profile {
+    margin-left: 16px;
+    border-radius: 100%;
+}
+
+.link:after {
+    position: absolute;
+    content: none;
+    display: block;
+    width: 30px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.link:hover:after {
+    content: "";
+}

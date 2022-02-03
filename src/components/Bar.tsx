@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"
 
-import '../css/bar.css'
+import '../css/Bar.css'
 import logo from '../images/logo3.png'
+import exon from '../images/exon.png'
 
 function Bar() {
     return (
@@ -13,8 +14,11 @@ function Bar() {
                     </a>
                 </div>
                 <div className="right">
-                    <Link to="/" className="link">홈</Link>
+                    <Link to="/" className="link">메인</Link>
                     <Link to="/problems" className="link">문제</Link>
+                    <a href="/">
+                        <img className="profile" src={exon} alt="profile" width="32px"/>
+                    </a>
                 </div>
             </div>
         </div>
