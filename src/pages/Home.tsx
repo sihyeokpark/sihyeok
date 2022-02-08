@@ -1,6 +1,6 @@
-import '../css/Home.css'
+import '../css/home.css'
 
-import Bar from '../components/Bar'
+import Bar from '../components/bar'
 
 export default function Home() {
     return (

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import '../css/Bar.css'
+import '../css/bar.css'
 import logo from '../images/logo3.png'
 import exon from '../images/exon.png'
 

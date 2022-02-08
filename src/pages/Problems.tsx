@@ -1,6 +1,6 @@
-import '../css/Problems.css'
+import '../css/problems.css'
 
-import Bar from '../components/Bar'
+import Bar from '../components/bar'
 
 export default function Problems() {
     return (

@@ -2,8 +2,8 @@ import { render } from 'react-dom'
 import './css/index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import Home from './pages/Home'
-import Problems from './pages/Problems'
+import Home from './pages/home'
+import Problems from './pages/problems'
 
 render(
     <BrowserRouter>
