@@ -4,7 +4,7 @@ import '../css/bar.css'
 import logo from '../images/logo3.png'
 import exon from '../images/exon.png'
 
-function Bar() {
+export default function Bar() {
     return (
         <div>
             <div className="bar">
@@ -24,5 +24,3 @@ function Bar() {
         </div>
     )
 }
-
-export default Bar;
