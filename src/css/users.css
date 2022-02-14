@@ -1,0 +1,17 @@
+.user {
+    max-width: 960px;
+    padding: 50px 8px;
+    margin: 2px auto;
+    margin-top: 50px;
+}
+
+.user img {
+    border-radius: 100%;
+}
+
+.user .name {
+    padding: 16px 8px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}

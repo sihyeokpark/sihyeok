@@ -16,7 +16,7 @@ export default function Bar() {
                 <div className="right">
                     <Link to="/" className="link">메인</Link>
                     <Link to="/problems" className="link">문제</Link>
-                    <a href="/">
+                    <a href="/users/exon">
                         <img className="profile" src={exon} alt="profile" width="32px"/>
                     </a>
                 </div>

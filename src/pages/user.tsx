@@ -1,7 +1,8 @@
-import '../css/home.css'
+import '../css/users.css'
 import { useParams } from 'react-router-dom'
 
 import Bar from '../components/bar'
+import logo from '../images/exon.png'
 
 export default function User() {
     let { id } = useParams()
@@ -10,16 +11,10 @@ export default function User() {
             <header>
                 <Bar />
             </header>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
+            <div className="user">
+                <img src={logo} alt={id} height="100px"/>
+                <h1 className="name">{id}</h1>
+            </div>
         </div>
     )
 }
