@@ -53,6 +53,11 @@ export default function Problems() {
                         <td>9999999</td>
                         <td>한자</td>
                     </tr>
+                    <tr>
+                        <td>실버3</td>
+                        <td>9999999</td>
+                        <td>한자</td>
+                    </tr>
                 </table>
             </div>
             
