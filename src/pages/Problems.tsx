@@ -1,66 +1,26 @@
 import '../css/problems.css'
+import { useParams } from 'react-router-dom'
 
 import Bar from '../components/bar'
 
-export default function Problems() {
+export default function User() {
+    let { id } = useParams()
+    let name: string = '문제'
     return (
         <div>
             <header>
                 <Bar />
             </header>
-            <div className="nav">
-                <div className="left">
-                    <button>글쓰기</button>
+            <div className="problem">
+                <div className="nav">
+                    <button>제출</button>
+                    <button>제출 현황</button>
+                    <button>질문</button>
+                    <button>제출</button>
+                    <button>제출</button>
                 </div>
-                <div className="right">
-                    <button>문제 만들기</button>
-                </div>
+                <h1 className="name"><b>{id}</b> {name}</h1>
             </div>
-            <div className='table'>
-                <table>
-                    <tr>
-                        <th>난이도</th>
-                        <th>문제</th>
-                        <th>정보</th>
-                    </tr>
-                    <tr>
-                        <td>골드1</td>
-                        <td>주차장</td>
-                        <td>사칙연산</td>
-                    </tr>
-                    <tr>
-                        <td>실버3</td>
-                        <td>9999999</td>
-                        <td>한자</td>
-                    </tr>
-                    <tr>
-                        <td>골드1</td>
-                        <td>주차장</td>
-                        <td>사칙연산</td>
-                    </tr>
-                    <tr>
-                        <td>실버3</td>
-                        <td>9999999</td>
-                        <td>한자</td>
-                    </tr>
-                    <tr>
-                        <td>골드1</td>
-                        <td>주차장</td>
-                        <td>사칙연산</td>
-                    </tr>
-                    <tr>
-                        <td>실버3</td>
-                        <td>9999999</td>
-                        <td>한자</td>
-                    </tr>
-                    <tr>
-                        <td>실버3</td>
-                        <td>9999999</td>
-                        <td>한자</td>
-                    </tr>
-                </table>
-            </div>
-            
         </div>
     )
 }

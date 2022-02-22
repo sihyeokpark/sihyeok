@@ -1,6 +1,7 @@
 import '../css/home.css'
 
 import Bar from '../components/bar'
+import Footer from '../components/footer'
 
 export default function Home() {
     return (
@@ -24,14 +25,7 @@ export default function Home() {
                     <h1>버스 문제</h1>
                 </div>
             </div>
-            <footer>
-                <div className="footer">
-                    <p>made by <a href="https://github.com/1-EXON">exon</a></p>
-                    <br></br>
-                    <p>powered by <a href='https://exon.kr'>exon.kr</a></p>
-                    <p>© {(new Date()).getFullYear()} All Rights Reserved.</p>
-                </div>
-            </footer>
+            <Footer />
         </div>
     )
 }
