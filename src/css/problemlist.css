@@ -25,7 +25,6 @@ table {
 table td, table th {
     color: #ffffff;
     padding: 12px;
-    font-weight: bold;
 }
 
 table tr:nth-child(even) {
