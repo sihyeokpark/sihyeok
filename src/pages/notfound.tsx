@@ -1,5 +1,3 @@
-import '../css/users.css'
-
 export default function NotFound() {
     return (
         <div>

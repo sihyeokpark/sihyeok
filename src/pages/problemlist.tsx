@@ -1,7 +1,7 @@
-import '../css/problemlist.css'
+import '../css/ProblemList.css'
 
-import Bar from '../components/bar'
-import Footer from '../components/footer'
+import Bar from '../components/Bar'
+import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 
 export default function ProblemList() {
@@ -12,10 +12,10 @@ export default function ProblemList() {
             </header>
             <div className="nav">
                 <div className="left">
-                    <button>글쓰기</button>
+                    <button><b>글쓰기</b></button>
                 </div>
                 <div className="right">
-                    <button>문제 만들기</button>
+                    <button><b>문제 만들기</b></button>
                 </div>
             </div>
             <div className='table'>

@@ -1,7 +1,7 @@
-import '../css/home.css'
+import '../css/Home.css'
 
-import Bar from '../components/bar'
-import Footer from '../components/footer'
+import Bar from '../components/Bar'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (

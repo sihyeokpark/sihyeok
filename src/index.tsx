@@ -2,11 +2,11 @@ import { render } from 'react-dom'
 import './css/index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import Home from './pages/home'
-import ProblemList from './pages/problemlist'
-import Problems from './pages/problems'
-import User from './pages/user'
-import NotFound from './pages/notfound'
+import Home from './pages/Home'
+import ProblemList from './pages/ProblemList'
+import Problems from './pages/Problems'
+import User from './pages/User'
+import NotFound from './pages/NotFound'
 
 render(
     <BrowserRouter>

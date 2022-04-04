@@ -1,7 +1,7 @@
-import '../css/users.css'
+import '../css/Users.css'
 import { useParams } from 'react-router-dom'
 
-import Bar from '../components/bar'
+import Bar from '../components/Bar'
 import logo from '../images/exon.png'
 
 export default function User() {

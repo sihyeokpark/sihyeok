@@ -1,7 +1,7 @@
-import '../css/problems.css'
+import '../css/Problems.css'
 import { useParams } from 'react-router-dom'
 
-import Bar from '../components/bar'
+import Bar from '../components/Bar'
 
 export default function User() {
     let { id } = useParams()
