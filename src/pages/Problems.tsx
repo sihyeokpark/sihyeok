@@ -13,11 +13,15 @@ export default function User() {
             </header>
             <div className="problem">
                 <div className="nav">
-                    <button>제출</button>
-                    <button>제출 현황</button>
-                    <button>질문</button>
-                    <button>제출</button>
-                    <button>제출</button>
+                    <div className="left">
+                        <button className="option">제출</button>
+                        <button className="option">제출 현황</button>
+                        <button className="option">질문</button>
+                    </div>
+                    <div className="right">
+                        <button className="option">제출</button>
+                        <button className="option">제출</button>
+                    </div>
                 </div>
                 <h1 className="name"><b>{id}</b> {name}</h1>
             </div>

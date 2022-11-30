@@ -6,7 +6,7 @@
 }
 
 .problem .name {
-    padding: 16px 8px;
+    padding: 16px 30px;
     font-size: 2rem;
     color: white;
 }
@@ -14,7 +14,7 @@
 .problem .nav {
     max-width: 960px;
     padding: 10px 8px;
-    margin: 5px auto 10px;
+    margin: 80px auto 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,4 +24,13 @@
 .problem .nav .left {
     display: flex;
     align-content: center;
+}
+
+.problem .nav .right {
+    display: flex;
+    float: right;
+}
+
+button.option {
+    background-color: black;
 }
