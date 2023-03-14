@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
+import Link from 'next/link'
 
-import '../css/Bar.css'
+import '../styles/Bar.css'
 import logo from '../images/logo3.png'
 import exon from '../images/exon.png'
 
@@ -10,14 +10,14 @@ export default function Bar() {
             <div className="bar">
                 <div className="left">
                     <a href="/">
-                        <img src={logo} alt="logo" width="50px"/>
+                        <img src={logo.src} alt="logo" width="50px"/>
                     </a>
                 </div>
                 <div className="right">
-                    <Link to="/" className="link">메인</Link>
-                    <Link to="/problems" className="link">문제</Link>
-                    <Link to="/users/exon">
-                        <img className="profile" src={exon} alt="profile" width="32px"/>
+                    <Link href="/" className="link">메인</Link>
+                    <Link href="/problems" className="link">문제</Link>
+                    <Link href="/users/exon">
+                        <img className="profile" src={exon.src} alt="profile" width="32px"/>
                     </Link>
                 </div>
             </div>

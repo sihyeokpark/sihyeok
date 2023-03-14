@@ -1,8 +1,9 @@
-import '../css/ProblemList.css'
+import Link from 'next/link'
+
+import '../styles/ProblemList.css'
 
 import Bar from '../components/Bar'
 import Footer from '../components/Footer'
-import { Link } from 'react-router-dom'
 
 export default function ProblemList() {
     return (
@@ -27,80 +28,80 @@ export default function ProblemList() {
                     </tr>
                     <tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                     <tr>
                         <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
                         <td>언어</td>
                     </tr>
                     <tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                     <tr>
                         <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
-                        <td>언어</td>
-                    </tr><tr>
-                        <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
-                        <td>사칙연산</td>
-                    </tr>
-                    <tr>
-                        <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
                         <td>언어</td>
                     </tr><tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                     <tr>
                         <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
                         <td>언어</td>
                     </tr><tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                     <tr>
                         <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
                         <td>언어</td>
                     </tr><tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                     <tr>
                         <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
                         <td>언어</td>
                     </tr><tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                     <tr>
                         <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
                         <td>언어</td>
                     </tr><tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                     <tr>
                         <td>실버 5</td>
-                        <td><Link to="/problems/1">시혁이의 초시계</Link></td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
                         <td>언어</td>
                     </tr><tr>
                         <td>골드 1</td>
-                        <td><Link to="/problems/1">주차장</Link></td>
+                        <td><Link href="/problems/1">주차장</Link></td>
+                        <td>사칙연산</td>
+                    </tr>
+                    <tr>
+                        <td>실버 5</td>
+                        <td><Link href="/problems/1">시혁이의 초시계</Link></td>
+                        <td>언어</td>
+                    </tr><tr>
+                        <td>골드 1</td>
+                        <td><Link href="/problems/1">주차장</Link></td>
                         <td>사칙연산</td>
                     </tr>
                 </table>

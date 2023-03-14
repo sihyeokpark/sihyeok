@@ -1,10 +1,9 @@
-import '../css/Problems.css'
-import { useParams } from 'react-router-dom'
+import '../styles/Problems.css'
 
 import Bar from '../components/Bar'
 
 export default function User() {
-    let { id } = useParams()
+    // let { id } = useParams()
     let name: string = '문제'
     return (
         <div>
@@ -23,7 +22,7 @@ export default function User() {
                         <button className="option">제출</button>
                     </div>
                 </div>
-                <h1 className="name"><b>{id}</b> {name}</h1>
+                <h1 className="name"><b>{3}</b> {name}</h1>
             </div>
         </div>
     )
