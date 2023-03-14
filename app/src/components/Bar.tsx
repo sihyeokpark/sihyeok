@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
-import '../styles/Bar.css'
+import styles from '@/styles/Bar.module.css'
+
 import logo from '../images/logo3.png'
 import exon from '../images/exon.png'
 

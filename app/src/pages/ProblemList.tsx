@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import '../styles/ProblemList.css'
+import styles from '@/styles/ProblemList.module.css'
 
 import Bar from '../components/Bar'
 import Footer from '../components/Footer'
@@ -11,15 +11,15 @@ export default function ProblemList() {
             <header>
                 <Bar />
             </header>
-            <div className="nav">
-                <div className="left">
+            <div className={styles.nav}>
+                <div className={styles.left}>
                     <button><b>글쓰기</b></button>
                 </div>
-                <div className="right">
+                <div className={styles.right}>
                     <button><b>문제 만들기</b></button>
                 </div>
             </div>
-            <div className='table'>
+            <div className={styles.table}>
                 <table>
                     <tr>
                         <th>난이도</th>
